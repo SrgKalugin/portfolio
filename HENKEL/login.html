@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="windows-1251">
+		<link href="style.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1, maximum-scale=1, user-scalable=0">
+		<title>Henkel</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<div class="wrapper clearfix">
+				<div class="logo">
+					<a href="#">
+						<img src="images/logo.png" class="logo_1">
+						<img src="images/logo_2.png" class="logo_2">
+					</a>
+				</div>
+			</div>
+		</header>
+		
+		<div class="main"></div>
+		<div class="autorisation_main mask">
+	        <form action="" method="" class="autorisation_form">
+	            <h3>Ласкаво просимо<br> до Beauty академії Henkel</h3>
+	            <input type="text" class="form_control" name="" value="Artem.Afanasiev@wizardpost.com.ua">
+	            <input type="password" class="form_control" name="" value="•••••••••••••">
+	            <div class="button"><button type="submit" class="detail btn">Увійти</button></div>
+	        </form>
+	    </div>
+	    <script>
+	    $(function () {
+			    $(document).ready(function () {
+			        fResize();
+			        $(window).resize(function () {
+			            fResize();
+			        });
+			        function fResize() {
+			            var winW = $(window).width(),
+			                winH = $(window).height();
+			            $('.main').css({
+			                width: winW,
+			                height: winH
+			            });
+			        }
+			    });
+			});
+	    </script>
+
+
+
+	</body>
+</html>
